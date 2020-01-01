@@ -14,3 +14,10 @@ Git step 1)
 12) git log: In your repo,if you want to know about everything i.e about every commit most important command is git log.It not only tells you about your branch commits but all of your commits.
 13) git stash : when working with multiple branch sometimes you have to switch between branches. WE USUALLY COMMIT AFTER ACTUALLY FINISHING COMPLETE FEATURE,BUT SOMETIMES IF WE HAVEN'T COMPLETED THAT FEATURE IN CERTAIN BRANCH BUT YOU NEED TO GO TO ANOTHER BRANCH BECAUSE OF EMERGENCY THEN WITHOUT COMMITING YOUR WORK YOU CAN GO TO THE BRANCH THAT WAS EMERGENCY FOR THAT WE USE GIT STASH.
 When you don't want to save your incomplete work in repository,to stash your staged files,i.e after doing git add we use git stash so there is no need for commit after finishing that emergency case we can come back to the working branch and get all the incomplete changes by git stash.
+===========================================================NEXT BREAKKK======================================================
+
+14) git revert : reverting a commit,to a previous version. git revert -hashidOfCommit
+I want to got back to my first commit of particular branch to do that we do git revert commitId. 
+git revert commitID when you do, the changes which you have done in that commit are deleted.while being deleted it leave revert message so that we can again revert back.to revert back YOU DO GIT CHECKOUT COMMITIDTOBEREVERTBACK
+when you do git revert commitId,AND DID 'ls command' the file/code you had entered will not be seen after doing ls.
+BUT HOW TO UN-REVERT THE REVERT 
