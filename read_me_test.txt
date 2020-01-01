@@ -10,3 +10,5 @@ Git step 1)
 9) git branch branchName : For parallel development,in a project,many developers so to collaborate,branching is done. 
 10) git branch -D branchName : to delete branch
 11) IMPORTANT POINT : when you do git branch <branchName>, then the last commit of your master becomes,the first commit of branch you created
+=============================================================================TAKE A BREAK==============================================
+12) git log: In your repo,if you want to know about everything i.e about every commit most important command is git log.It not only tells you about your branch commits but all of your commits.
