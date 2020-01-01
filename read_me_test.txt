@@ -12,3 +12,5 @@ Git step 1)
 11) IMPORTANT POINT : when you do git branch <branchName>, then the last commit of your master becomes,the first commit of branch you created
 =============================================================================TAKE A BREAK==============================================
 12) git log: In your repo,if you want to know about everything i.e about every commit most important command is git log.It not only tells you about your branch commits but all of your commits.
+13) git stash : when working with multiple branch sometimes you have to switch between branches. WE USUALLY COMMIT AFTER ACTUALLY FINISHING COMPLETE FEATURE,BUT SOMETIMES IF WE HAVEN'T COMPLETED THAT FEATURE IN CERTAIN BRANCH BUT YOU NEED TO GO TO ANOTHER BRANCH BECAUSE OF EMERGENCY THEN WITHOUT COMMITING YOUR WORK YOU CAN GO TO THE BRANCH THAT WAS EMERGENCY FOR THAT WE USE GIT STASH.
+When you don't want to save your incomplete work in repository,to stash your staged files,i.e after doing git add we use git stash so there is no need for commit after finishing that emergency case we can come back to the working branch and get all the incomplete changes by git stash.
