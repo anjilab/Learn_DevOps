@@ -21,3 +21,4 @@ I want to got back to my first commit of particular branch to do that we do git 
 git revert commitID when you do, the changes which you have done in that commit are deleted.while being deleted it leave revert message so that we can again revert back.to revert back YOU DO GIT CHECKOUT COMMITIDTOBEREVERTBACK
 when you do git revert commitId,AND DID 'ls command' the file/code you had entered will not be seen after doing ls.
 BUT HOW TO UN-REVERT THE REVERT 
+same after  reverting it leaves a commit with the same commit id you can revert back so the previous changes deleted from revert can again be obtained back by revert.
