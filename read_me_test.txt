@@ -5,4 +5,8 @@ Git step 1)
 4) git commit : meaning they are being saved now.photo khichera sakyo (git commmit -m "message"
 5) git remote add origin : syncing to remote repository.i.e you are gonna add your code/files from your local to remote computer/repository
 6) git push origin master : pushing your code/files from local computer to remote computer/repository
-
+7) git clone : In order to download remote repository to your local ones,you need git clone <url>.
+8) git pull origin master : inorder to get all the changes pushed in remote master to be shifted in your local then we need to pull those changes.
+9) git branch branchName : For parallel development,in a project,many developers so to collaborate,branching is done. 
+10) git branch -D branchName : to delete branch
+11) IMPORTANT POINT : when you do git branch <branchName>, then the last commit of your master becomes,the first commit of branch you created
